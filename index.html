@@ -4,43 +4,572 @@
       <title>Audio Samples</title>
       
    </head>
-   <h1>Paper Title</h1>
+   <h1>ICASSP SUBMISSION ANONYMOUS DEMO PAGE</h1>
    <hr>
 
-    <div>Ground-Truth data </div>
-    <br>
-    <table style="width:100%">
-        <tr>
-          <td>
-            <audio controls="">
-                <source src="assets/x.mp3" type="audio/mp3">
-             </audio>
-          </td>
-          <td>
-            <audio controls="">
-                <source src="assets/x.mp3" type="audio/mp3">
-             </audio>
-          </td>
-        </tr>
-        <tr>
-          <td >
-            <audio controls="">
-                <source src="assets/x.mp3" type="audio/mp3">
-             </audio>
-          </td>
-          <td>
-            <audio controls="">
-                <source src="assets/x.mp3" type="audio/mp3">
-             </audio>
-          </td>
-        </tr>
-    </table>
+   <div>
+      <a name="baseline_limit">
+      <h2 style="color: blue;">Monolingual Speaker Adaptation</h2>
+      </a>
+   </div>
 
-    <div>
-        <a name="baseline_limit">
-        <h2>Generated Audio Samples</h2>
-        </a>
-    </div>
+   <!--
+      -------------------- MONO-ENGLISH
+   -->
+   <h3>English</h2> 
+   <div>Sentence 1: In typical cases, the colloquial term forest also corresponds to the technical definitions.</div>
+   <div>Sentence 2: In machine learning, the type and power of the knowledge representation play an important role.</div>
+   <div>Sentence 3: In classical electrodynamics, light is understood as a high-frequency electromagnetic wave.</div>
+   <br>
+   <table  border="1">
+      <tr>
+         <td align="center">Mode</td>
+         <td align="center">Sentence 1</td>
+         <td align="center">Sentence 2</td>
+         <td align="center">Sentence 3</td>
+       </tr>
+       
+      <tr>
+          <td>LJ->VCTK283</td>
+          <td align="center">
+            <audio controls="">
+                <source src="files/mono/mono_vctk283_1.wav" type="audio/wav">
+             </audio>
+          </td>
+          <td align="center">
+            <audio controls="">
+                <source src="files/mono/mono_vctk283_2.wav" type="audio/mp3">
+             </audio>
+          </td>
+          <td align="center">
+            <audio controls="">
+                <source src="files/mono/mono_vctk283_3.wav" type="audio/mp3">
+             </audio>
+          </td>
+      </tr>
+        
+      <tr>
+         <td>LJ->VCTK298</td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_vctk298_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_vctk298_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_vctk298_3.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
 
-    
+      <tr>
+         <td>LJ->TRUMP</td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_trump_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_trump_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+         <td align="center">
+           <audio controls="">
+               <source src="files/mono/mono_trump_3.wav"" type="audio/mp3">
+            </audio>
+         </td>
+       </tr>
+   </table>
+
+   <!--
+      -------------------- MONO-German
+   -->
+   <h3>German</h2> 
+   <div>Sentence 1: Beim maschinellen Lernen spielen Art und Mächtigkeit der Wissensrepräsentation eine wichtige Rolle.</div>
+   <div>Sentence 2: Die Spieltheorie ist ein Teilgebiet der Mathematik, das sich damit befasst, Systeme mit mehreren Akteuren zu analysieren.</div>
+   <div>Sentence 3: In Bezug auf die Beschreibung von Kommunikation lassen sich mehrere unterschiedliche Zugangsweisen unterscheiden, die durch spezifische Grundannahmen charakterisiert sind.</div>
+   <br>
+   <table  border="1">
+      <tr>
+         <td align="center">Mode</td>
+         <td align="center">Sentence 1</td>
+         <td align="center">Sentence 2</td>
+         <td align="center">Sentence 3</td>
+         </tr>
+         
+      <tr>
+            <td>InterMale->InterFemale</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/mono/mono_female_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/mono/mono_female_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/mono/mono_female_3.wav" type="audio/mp3">
+               </audio>
+            </td>
+      </tr>
+         
+      <tr>
+         <td>InterFemale->InterMale</td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_male_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_male_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_male_3.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+
+      <tr>
+         <td>InterMale->Merkel</td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_merkel_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_merkel_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+         <td align="center">
+            <audio controls="">
+               <source src="files/mono/mono_merkel_3.wav"" type="audio/mp3">
+            </audio>
+         </td>
+         </tr>
+   </table>
+   
+   <hr>
+
+   <div>
+      <a name="baseline_limit">
+      <h2 style="color: blue;">Cross-Lingual Speaker Adaptation</h2>
+      </a>
+   </div>
+
+   <!--
+      -------------------- *-to-FR
+   -->
+   <h3>*->French</h2> 
+   <div>Sentence 1: Les concepts politiques axés sur les conflits supposent l'existence de conflits comme des phénomènes inaltérables et nécessaires de la vie politico-sociale.</div>
+   <div>Sentence 2: Les forêts sont des écosystèmes complexes.</div>
+   <br>
+   <table  border="1">
+      <tr>
+         <td align="center">Mode</td>
+         <td align="center">Sentence 1</td>
+         <td align="center">Sentence 2</td>
+         </tr>
+         
+      <tr>
+         <td>ES->FR</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/es2fr_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/es2fr_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+      
+      <tr>
+         <td>KO->FR</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/ko2fr_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/ko2fr_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+
+      <tr>
+         <td>EN->FR</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/en2fr_1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/cross/en2fr_2.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+
+   </table>
+
+
+    <!--
+      -------------------- *-to-KOREAN
+   -->
+   <h3>*->Korean</h2> 
+      <div>Sentence 1: 알고리즘은 주어진 입력 및 출력 쌍에서 함수를 학습합니다.</div>
+      <div>Sentence 2: 기계 학습에서 지식 표현의 유형과 힘이 중요한 역할을합니다.</div>
+      <br>
+      <table  border="1">
+         <tr>
+            <td align="center">Mode</td>
+            <td align="center">Sentence 1</td>
+            <td align="center">Sentence 2</td>
+            </tr>
+            
+         <tr>
+            <td>EN->KO</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2ko_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2ko_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+         <tr>
+            <td>ES->KO</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/es2ko_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/es2ko_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+   
+         <tr>
+            <td>DE->KO</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/de2ko_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/de2ko_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+   </table>
+
+
+   <!--
+      -------------------- *-to-DE
+   -->
+   <h3>*->German</h2> 
+      <div>Sentence 1: Farbnamen dienen zum gemeinsamen Verständnis der Umwelt.</div>
+      <div>Sentence 2: Durch die Problemstellung des Optimierungsproblems sind eine Zielfunktion sowie ein Problemraum, der potenzielle Lösungen enthält, gegeben.</div>
+      <br>
+      <table  border="1">
+         <tr>
+            <td align="center">Mode</td>
+            <td align="center">Sentence 1</td>
+            <td align="center">Sentence 2</td>
+            </tr>
+            
+         <tr>
+            <td>EN->DE</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2de_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2de_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+         <tr>
+            <td>ES->DE</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/es2de_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/es2de_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+   
+         <tr>
+            <td>KO->DE</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/ko2de_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/ko2de_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+      </tr>
+   </table>
+
+   <!--
+      -------------------- *-to-ES
+   -->
+   <h3>*->Spanish</h2> 
+      <div>Sentence 1: El arte es originalmente un fenómeno de culto que se desarrolló al mismo tiempo o en conexión con cultos o religiones prehistóricas.</div>
+      <div>Sentence 2: La Ilustración preparó el concepto de arte moderno.</div>
+      <br>
+      <table  border="1">
+         <tr>
+            <td align="center">Mode</td>
+            <td align="center">Sentence 1</td>
+            <td align="center">Sentence 2</td>
+            </tr>
+            
+         <tr>
+            <td>DE->ES</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/de2es_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/de2es_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+         <tr>
+            <td>EN->ES</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2es_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/en2es_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+   
+         <tr>
+            <td>KO->ES</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/ko2es_1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/cross/ko2es_2.wav" type="audio/mp3">
+               </audio>
+            </td>
+      </tr>
+   </table>
+
+   <hr>
+
+   <div>
+      <a name="baseline_limit">
+      <h2 style="color: blue;">Accumulative Speaker Adaptation (+Pronunciation Enhancement)</h2>
+      </a>
+   </div>
+    <div style="color:red">The attention for the source model fails for the final language for most inputs, 
+       but here we show example whose alignments are (almost) correct, however you can still hear that the pronunciation 
+       is wrong for most words. The pronunciation in a target langauge is improved by transfer learning in an accumulative manner as
+       shown in the second row of each example.</div>
+   <!--
+      -------------------- DE->ES->FR
+   -->
+   <h3>German->Spanish->French</h2> 
+   <div>Sentence 1: L'algorithme apprend une fonction à partir de paires d'entrées et de sorties données.</div>
+   <div>Sentence 2: Dans les cas typiques, le terme familier de forêt correspond également aux définitions techniques.</div>
+   <br>
+   <table  border="1">
+      <tr>
+         <td align="center">Mode</td>
+         <td align="center">Sentence 1</td>
+         <td align="center">Sentence 2</td>
+         </tr>
+         
+      <tr>
+         <td>Final Speaker(French)</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/de2es2fr_fss1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/de2es2fr_fss2.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+      
+      <tr>
+         <td>First Speaker(German)</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/de2es2fr_male1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/de2es2fr_male2.wav"" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+
+      <tr>
+         <td>Source Model(Only German)</td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/sourceDEmale_fr1.wav" type="audio/wav">
+            </audio>
+         </td>
+         <td align="center">
+         <audio controls="">
+               <source src="files/accum/sourceDEmale_fr2.wav" type="audio/mp3">
+            </audio>
+         </td>
+      </tr>
+      
+   </table>
+
+
+    <!--
+      -------------------- ES->KO->DE
+   -->
+   <h3>Spanish->Korean->German</h2> 
+      <div>Sentence 1: Eine gezielte und praktische Anwendung der Elektrizität erfolgte erst am Beginn der Neuzeit.</div>
+      <div>Sentence 2: Die Gesamtbetriebskosten eines Autos setzen sich aus Fixkosten und variablen Kosten zusammen.</div>
+      <br>
+      <table  border="1">
+         <tr>
+            <td align="center">Mode</td>
+            <td align="center">Sentence 1</td>
+            <td align="center">Sentence 2</td>
+            </tr>
+            
+         <tr>
+            <td>Final Speaker(German)</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/es2ko2de_male1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/es2ko2de_male2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+         <tr>
+            <td>First Speaker(Spanish)</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/es2ko2de_sss1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/es2ko2de_sss2.wav"" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+   
+         <tr>
+            <td>Source Model(Only Spanish)</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/sourceESsss_de1.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/accum/sourceESsss_de2.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+      </table>
+   
+   <hr>
+   <div>
+      <a name="baseline_limit">
+      <h2 style="color: blue;">Expert Alignment</h2>
+      </a>
+   </div>
+
+      <table  border="1">
+         <tr>
+            <td align="center">Mode</td>
+            <td align="center">With Expert Alignment</td>
+            <td align="center">Without Expert Alignment</td>
+            </tr>
+            
+         <tr>
+            <td>Noisy Data - Long Sentence Alignment</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/expert/trump_exp.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/expert/trump_noexp.wav" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+         
+         <tr>
+            <td>Avoiding Jumps and Abrupt Endings with Expert Alignment</td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/expert/sss_exp.wav" type="audio/wav">
+               </audio>
+            </td>
+            <td align="center">
+            <audio controls="">
+                  <source src="files/expert/sss_noexp.wav"" type="audio/mp3">
+               </audio>
+            </td>
+         </tr>
+
+         
+      </table>
 </html>
